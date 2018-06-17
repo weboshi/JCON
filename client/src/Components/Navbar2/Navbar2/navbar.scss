@@ -1,0 +1,121 @@
+.navbar-default {
+    background-color: white;
+    color: red;
+    background-image: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif,;
+    height: 200px !important;
+  }
+
+.navbar-default .navbar-brand {
+    color: red
+    
+    
+  }
+
+  .navbar-nav>li>a{
+      padding-bottom: 16px;
+      
+  }
+
+.navbar-default .navbar-brand:hover {
+    color: red
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black
+  }
+
+.navbar-default .navbar-brand:focus{
+      color: red
+}
+
+#nav-links {
+    margin-top: 80px;
+    margin-right: 200px;
+    font-size: 20px;
+}
+
+#brand-link>a:after {
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:3px;
+    width:0%;
+    background-color: red;
+    display:block;
+    content:'';
+    transition:0.3s;
+}
+
+#brand-link>a:active:after {
+    width: 100%;
+}
+
+.navbar-default .navbar-nav>li>a:after {
+    position: relative;
+    bottom: -9px;
+    left:-1px;
+    height:5px;
+    width:0%;
+    background-color: red;
+    display:block;
+    content:'';
+    transition:0.3s;
+}
+
+#basic-nav-dropdown {
+    padding-left: 0px;
+}
+
+.navbar-default .navbar-nav>li>a:hover:after {
+    
+    width: 100%;
+
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: inline-block;
+    background-color: white;
+
+    
+
+    }
+    .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+        margin: 0;
+    }
+  
+ 
+
+    .dropdown-menu>li>a {
+        padding: 10px 0px;
+    }
+
+.navbar-default { margin : 0 !important; }
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+ul li {display: inline-block;}
+ul li:hover {background: white;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}
+
+
