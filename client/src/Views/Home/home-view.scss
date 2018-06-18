@@ -1,6 +1,20 @@
 .main-p {
-  color: black;
+  color: white;
   font-family: 'Roboto', sans-serif,;
-  font-size: 20px;
-  margin-top: 80px;
+  font-size: 25px;
+ 
+}
+
+.main-home {
+  width: 70%;
+  margin: auto;
+  margin-top: 20vh;
+}
+
+.container-home {
+  overflow: auto;
+  margin-top: 0px;
+  background-image: url('./jconcert.jpg');
+  height: 90vh;
+  width: 100%;
 }

@@ -16,29 +16,45 @@ export default class navbar extends Component {
 <Navbar default>
 <Navbar.Header style={{padding:'60px'}}>
 <Navbar.Brand pullLeft style={{height:'50%'}}>
-    <Link id='brand-link' href ='/' to="/" style={{fontSize:'70px', paddingBottom: '60px'}}>J-CON</Link>
+    <Link style={{textDecoration:'none !important'}} id='brand-link' href ='/' to="/" style={{fontSize:'70px', paddingBottom: '60px'}}>J-CON</Link>
     </Navbar.Brand>
   </Navbar.Header>
   <Nav id='nav-links' >
-  <NavDropdown pullRight={false} eventKey={1} componentClass={Link} noCaret href='/' to="/" title="Explore" id="basic-nav-dropdown">
-      <MenuItem class='dropdown-items' eventKey={1.1}>Our Purpose</MenuItem>
-      <MenuItem class='dropdown-items' eventKey={1.2}>Programming</MenuItem>
-      <MenuItem class='dropdown-items' eventKey={1.3}> else here</MenuItem>
-    </NavDropdown>
-      <NavItem class='nav-item' eventKey={2} componentClass={Link} href='/about' to="/about">
-      About
-      </NavItem>
-      <ul>
-        <li>
-          <a href="#">Dropdown</a>
-          <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-          </ul>
-        </li>
-      </ul>
-      </Nav>
+    <ul class='nav-dd'>
+          <li id='dd-li'>
+            <a href="/" to="/" eventKey={1} componentClass={Link}>EXPLORE</a>
+            <ul class='dd-ul'>
+              <li><a class='dd-links' href="#" eventKey={1.1}>Our Goal</a></li>
+              <li><a class='dd-links' href="#" eventKey={1.2}>FAQ</a></li>
+              <li><a class='dd-links' href="#" eventKey={1.3}>Policy</a></li>
+            </ul>
+          </li>
+        </ul>
+    <ul class='nav-dd'>
+      <li id='dd-li'>
+        <a href="/" to="/" eventKey={2} componentClass={Link}>THE MUSIC</a>
+        <ul class='dd-ul'>
+          <li><a class='dd-links' href="#" eventKey={2.1}>Line Up</a></li>
+          <li><a class='dd-links' href="#" eventKey={2.2}>Special Guests</a></li>
+          <li><a class='dd-links' href="#" eventKey={2.3}>Schedule</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class='nav-dd'>
+      <li id='dd-li'>
+        <a href="/" to="/" eventKey={3} componentClass={Link}>REGISTER</a>
+        <ul class='dd-ul'>
+          <li><a class='dd-links' href="#" eventKey={3.1}>Get a Ticket </a></li>
+          <li><a class='dd-links' href="#" eventKey={3.2}>Plan Your Trip</a></li>
+        </ul>
+      </li>
+    </ul>
+   
+      <Button id='registerButton' style={{marginLeft:'100px'}} bsClass='custom-btn' bsSize="large">
+        TICKETS
+      </Button>
+    
+  </Nav>
  
   
 </Navbar>

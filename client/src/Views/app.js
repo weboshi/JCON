@@ -4,7 +4,7 @@ import Home from './Home';
 import Organization from './Organization'
 import About from './About'
 import Contact from'./Contact'
-import { Navbar } from '../Components/Navbar'
+import { Navbar2 } from '../Components/Navbar2'
 import './app.scss'
 import { Footer } from '../Components/Footer'
 import { Results } from '../Components/Results'

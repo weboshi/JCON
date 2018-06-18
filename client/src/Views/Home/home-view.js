@@ -12,13 +12,12 @@ import {
 } from '../../Components/Navbar2';
 export default ({ match }) =>
 
-<div>
+
+<div className='container-home'>
 <Navbar2/>
-<div className='container'>
-  <div className='main'>
+  <div className='main-home'>
   <p className='main-p'>Bringing fans and industry together for an annual celebration of Japanese pop culture. Join us for AX 2018 on July 5-8 (plus, Pre-Show Night July 4) in Downtown Los Angeles!
     </p>
   </div>
-</div>
 </div>
 
