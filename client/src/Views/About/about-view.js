@@ -10,42 +10,113 @@ import {
 } from '../../Components/Navbar2';
 
 export default props =>
-<div>
-  <Navbar2/>
-<div className='container'>
-{/* <div className='breadcrumb'>
-<Breadcrumb bsStyle='default' style={{padding:'0', margin:'0'}}>
-  <Breadcrumb.Item active>About</Breadcrumb.Item>
-</Breadcrumb>
-</div> */}
-<div className='about'>
-  <div className='p1'>
-  <h1 className='h1-p2'>
-    About Our Purpose
-    {/* <hr/> */}
-  </h1>
-  <div className='p1-body'>
-      At PolitSearch, we believe that voters should have all the information they need when voting.  
-    By making information such as voting records and financial contributions easily accessible, voters will have a clearer picture of their candidates before casting their votes.
-  </div>
-  </div>
- 
- 
-  
-  <div className='p2'>
-  <h1 className='h2-p2'>
-   Where Does the Information Come From?
-  </h1>
-  <div className='p2-body'>
-    Our information on financial contributions is pulled from Google Civic Api, ProPublica, and Open Secrets at the Center for Responsive Politics. You can visit them below:
-   </div>
-   <div className='opensecrets'>
-   <a href={'https://www.opensecrets.org/'}><img src={require('./opensecrets_databy250x88.gif')} alt={'OpenSecrets.org'} href={'https://www.opensecrets.org/'} /></a>
-   </div>
-  </div>
-</div>
-</div>
-</div>
 
-//Campaign contributions from corporations or PAC's (Political Action Committees) offer insight into what industries or political factions may influence their decisionmaking. 
-//Voting records show how representatives are casting their votes and whether they are aligned with their platforms.
+<div className='lineup-container'>
+  <Navbar2/>
+  <div className='lineup-banner'>
+      <div className='lineup-div'>
+        <p className='lineup'>
+        LINE UP
+        </p>
+      </div>
+  </div>
+  <div className='lineup-day1'>
+    <div className='lineup-border'>
+      <h1 className='lineup'>
+        FRI
+      </h1>
+    </div>
+      <ul className='artists'>
+        <li className='artist'>
+          <div className='artist-pic'>
+            <a>
+            <img src='../../../public/artists/lisa.jpg'/>
+            </a>
+          </div>
+            <h2> LiSA </h2>
+        </li>
+        <li className='artist'>
+          <div className='artist-pic'>
+            <a>
+            <img src='../../../public/artists/indigolaend.jpg'/>
+            </a>
+          </div>
+          <h2> Indigo La End </h2>
+        </li>
+        <li className='artist'>
+          <div className='artist-pic'>
+            <a>
+            <img src='../../../public/artists/keyakizaka46.jpg'/>
+            </a>
+          </div>
+          <h2> Keyakizaka46 </h2>
+        </li>
+      </ul>
+  </div>
+  <div className='lineup-day2'>
+      <div className='lineup-border'>
+      <h1 className='lineup'>
+        SAT
+      </h1>
+      </div>
+      <ul className='artists'>
+        <li className='artist'>
+          <div className='artist-pic'>
+            <a>
+            <img src='../../../public/artists/BoA.jpg'/>
+            </a>
+          </div>
+            <h2> BoA </h2>
+        </li>
+        <li className='artist'>
+          <div className='artist-pic'>
+            <a>
+            <img src='../../../public/artists/silentsiren.jpg'/>
+            </a>
+          </div>
+          <h2> Silent Siren </h2>
+        </li>
+        <li className='artist'>
+          <div className='artist-pic'>
+            <a>
+            <img src='../../../public/artists/uverworld.jpg'/>
+            </a>
+          </div>
+          <h2> Uverworld </h2>
+        </li>
+      </ul>
+  </div>
+  <div className='lineup-day3'>
+    <div className='lineup-border'>
+      <h1 className='lineup'>
+        SUN
+      </h1>
+      </div>
+      <ul className='artists'>
+        <li className='artist'>
+          <div className='artist-pic'>
+            <a>
+            <img src='../../../public/artists/utada.jpg'/>
+            </a>
+          </div>
+            <h2> Utada Hikaru </h2>
+        </li>
+        <li className='artist'>
+          <div className='artist-pic'>
+            <a>
+            <img src='../../../public/artists/backnumber.jpeg'/>
+            </a>
+          </div>
+          <h2> back number </h2>
+        </li>
+        <li className='artist'>
+          <div className='artist-pic'>
+            <a>
+            <img src='../../../public/artists/flowerflower.jpg'/>
+            </a>
+          </div>
+          <h2> FLOWER FLOWER </h2>
+        </li>
+      </ul>
+  </div>
+</div>

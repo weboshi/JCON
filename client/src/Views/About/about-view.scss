@@ -1,79 +1,83 @@
-
-
-.about {
-    h1 {
-      color: white;;
-      font-size: 30px;
-    }
-    background-color: transparent;
+p.lineup {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    font-weight: bold;
     color: white;
-    width: 70%;
-    height: 70%;
     margin: auto;
-    margin-top: 50px;
-    font-size: 20px;
-    line-height: 40px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    
-  }
-
-.p1, .p2 {
-    width: 90%;
-    margin: auto;
-}
-
-
-
-.app {
-    background-color: white;
-   }
-
-.h1-p2, .h2-p2 { 
     text-align: center;
-    margin-top: 0px;
-    border-bottom: 1px solid white;
-    
-   
-}
-
-.h1-p2 {
-    width:33%;
-    margin: auto;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    line-height: 400px;
 }
 
 
-
-.h2-p2 {
-    width: 70%;
-    margin: auto;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
+.lineup-banner {
+    background: rgba(255, 0, 0, 0.87);
+    width: 100%;
+    height: 400px;
 }
 
-.p1 {
-    margin-top: 50px;
-}
-.p2 {
-    margin-top: 70px;
+h1.lineup {
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+    text-align:center;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-.p1-body, .p2-body {
-    text-indent: 2em;
-    width: 90%;
+img {
+    height: auto;
+    width: 300px;
+}
+
+.lineup-day1 {
+    width: 80%;
     margin: auto;
 }
 
-.opensecrets {
-    width: 250px;
+h2 {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+li.artist {
+    padding: 30px;
+}
+
+.artist-pic {
+    max-width: 300px;
+    max-height: 165px;
+    overflow: hidden;
+}
+
+.artist-pic:hover {
+    transform: scale(1.07);
+    transition: .3s ease
+}
+
+.lineup-day1 {
+    padding-bottom: 80px;
+    margin-top: 80px;
+}
+
+
+.lineup-day2 {
+    padding-bottom: 80px;
+    width: 80%;
     margin: auto;
-    margin-top: 30px;
+}
+
+
+.lineup-day3 {
+    padding-bottom: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.lineup-border {
+    border: 3px solid white;
+    width: 100px;
+    margin: auto;
 }

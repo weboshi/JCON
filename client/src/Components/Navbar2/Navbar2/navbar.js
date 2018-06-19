@@ -19,10 +19,10 @@ export default class navbar extends Component {
     <Link style={{textDecoration:'none !important'}} id='brand-link' href ='/' to="/" style={{fontSize:'70px', paddingBottom: '60px'}}>J-CON</Link>
     </Navbar.Brand>
   </Navbar.Header>
-  <Nav id='nav-links' >
+  <div className='nav-links-div'>
     <ul class='nav-dd'>
           <li id='dd-li'>
-            <a href="/" to="/" eventKey={1} componentClass={Link}>EXPLORE</a>
+            <a class='dd-a' href="/" to="/" eventKey={1} componentClass={Link}>EXPLORE</a>
             <ul class='dd-ul'>
               <li><a class='dd-links' href="#" eventKey={1.1}>Our Goal</a></li>
               <li><a class='dd-links' href="#" eventKey={1.2}>FAQ</a></li>
@@ -32,9 +32,9 @@ export default class navbar extends Component {
         </ul>
     <ul class='nav-dd'>
       <li id='dd-li'>
-        <a href="/" to="/" eventKey={2} componentClass={Link}>THE MUSIC</a>
+        <a class='dd-a' href="/" to="/" eventKey={2} componentClass={Link}>THE MUSIC</a>
         <ul class='dd-ul'>
-          <li><a class='dd-links' href="#" eventKey={2.1}>Line Up</a></li>
+          <li><a class='dd-links' href="/lineup" eventKey={2.1}>Line Up</a></li>
           <li><a class='dd-links' href="#" eventKey={2.2}>Special Guests</a></li>
           <li><a class='dd-links' href="#" eventKey={2.3}>Schedule</a></li>
         </ul>
@@ -42,20 +42,20 @@ export default class navbar extends Component {
     </ul>
     <ul class='nav-dd'>
       <li id='dd-li'>
-        <a href="/" to="/" eventKey={3} componentClass={Link}>REGISTER</a>
+        <a class='dd-a' href="/" to="/" eventKey={3} componentClass={Link}>REGISTER</a>
         <ul class='dd-ul'>
           <li><a class='dd-links' href="#" eventKey={3.1}>Get a Ticket </a></li>
           <li><a class='dd-links' href="#" eventKey={3.2}>Plan Your Trip</a></li>
         </ul>
       </li>
     </ul>
-   
-      <Button id='registerButton' style={{marginLeft:'100px'}} bsClass='custom-btn' bsSize="large">
+    
+    
+      <Button id='registerButton' style={{marginLeft:'450px'}} bsClass='custom-btn' bsSize="large">
         TICKETS
       </Button>
-    
-  </Nav>
- 
+    </div>
+
   
 </Navbar>
 

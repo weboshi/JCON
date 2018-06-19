@@ -1,5 +1,5 @@
 .navbar-default {
-
+    background: white;
     color: red;
     border-radius: 0;
     font-weight: bold;
@@ -10,11 +10,12 @@
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
     z-index: 1000;
-    background: rgba(255, 254, 254, 0.781) !important;
   }
 
 .navbar-default .navbar-brand {
     color: red;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px !important;
   }
 
 a.navbar-brand:hover{
@@ -39,10 +40,25 @@ a.navbar-brand:hover{
       color: red
 }
 
-#nav-links {
-    margin-top: 80px;
-    margin-right: 200px;
+.navbar-nav {
+    padding-bottom: 50px !important;
+}
+
+.nav-links-div {
     font-size: 20px;
+    display: inline-block;
+    margin: auto !important;
+    padding-top: 70px;
+    width: auto !important;
+    margin-left: 50px !important;
+}
+div.navbar-header {
+    display: inline-block;
+    margin-left: 80px !important;
+}
+
+div.container {
+    width: 100%;
 }
 
 #brand-link>a:after {
@@ -108,7 +124,7 @@ ul li {
 }
 
 ul li:hover {
-    background: white; 
+    background: none;
 }
 
 ul li:hover ul {
@@ -179,6 +195,7 @@ a:hover{
 }
 
 .dd-ul {
+    display: none;
     opacity: 0;
     transition: all .3s;
 }
