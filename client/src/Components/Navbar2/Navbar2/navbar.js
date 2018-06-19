@@ -24,9 +24,9 @@ export default class navbar extends Component {
           <li id='dd-li'>
             <a class='dd-a' href="/" to="/" eventKey={1} componentClass={Link}>EXPLORE</a>
             <ul class='dd-ul'>
-              <li><a class='dd-links' href="#" eventKey={1.1}>Our Goal</a></li>
-              <li><a class='dd-links' href="#" eventKey={1.2}>FAQ</a></li>
-              <li><a class='dd-links' href="#" eventKey={1.3}>Policy</a></li>
+              <li><a class='dd-links' href="/goal" eventKey={1.1}>Our Mission</a></li>
+              <li><a class='dd-links' href="/faq" eventKey={1.2}>FAQ</a></li>
+              <li><a class='dd-links' href="/sponsors" eventKey={1.3}>Sponsors</a></li>
             </ul>
           </li>
         </ul>
@@ -35,8 +35,8 @@ export default class navbar extends Component {
         <a class='dd-a' href="/" to="/" eventKey={2} componentClass={Link}>THE MUSIC</a>
         <ul class='dd-ul'>
           <li><a class='dd-links' href="/lineup" eventKey={2.1}>Line Up</a></li>
-          <li><a class='dd-links' href="#" eventKey={2.2}>Special Guests</a></li>
-          <li><a class='dd-links' href="#" eventKey={2.3}>Schedule</a></li>
+          <li><a class='dd-links' href="/guests" eventKey={2.2}>Special Guests</a></li>
+          <li><a class='dd-links' href="/programming" eventKey={2.3}>Programming</a></li>
         </ul>
       </li>
     </ul>
@@ -44,8 +44,8 @@ export default class navbar extends Component {
       <li id='dd-li'>
         <a class='dd-a' href="/" to="/" eventKey={3} componentClass={Link}>REGISTER</a>
         <ul class='dd-ul'>
-          <li><a class='dd-links' href="#" eventKey={3.1}>Get a Ticket </a></li>
-          <li><a class='dd-links' href="#" eventKey={3.2}>Plan Your Trip</a></li>
+          <li><a class='dd-links' href="/tickets" eventKey={3.1}>Get a Ticket </a></li>
+          <li><a class='dd-links' href="/plan" eventKey={3.2}>Plan Your Trip</a></li>
         </ul>
       </li>
     </ul>

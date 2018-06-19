@@ -11,6 +11,8 @@ export default path => {
   app.use(logger("dev"));
   app.use(bodyParser.json());
 
+
+
   app.use(express.static(`${path}/client`));
   app.use("/api/organization", routers.organization);
 

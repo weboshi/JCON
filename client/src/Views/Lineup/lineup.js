@@ -4,7 +4,7 @@ import TextField from 'material-ui/TextField';
 import axios from "axios";
 import RaisedButton from 'material-ui/RaisedButton';
 import { Breadcrumb } from 'react-bootstrap';
-import './about-view.scss';
+import './lineup-view.scss';
 import { 
   Navbar2 
 } from '../../Components/Navbar2';
@@ -26,11 +26,12 @@ export default props =>
         FRI
       </h1>
     </div>
+    <div className='artists-div'>
       <ul className='artists'>
         <li className='artist'>
           <div className='artist-pic'>
             <a>
-            <img src='../../../public/artists/lisa.jpg'/>
+            <img src={require('../../artists/lisa.jpg')}/>
             </a>
           </div>
             <h2> LiSA </h2>
@@ -38,7 +39,7 @@ export default props =>
         <li className='artist'>
           <div className='artist-pic'>
             <a>
-            <img src='../../../public/artists/indigolaend.jpg'/>
+            <img src={require('../../artists/indigolaend.jpg')}/>
             </a>
           </div>
           <h2> Indigo La End </h2>
@@ -46,12 +47,13 @@ export default props =>
         <li className='artist'>
           <div className='artist-pic'>
             <a>
-            <img src='../../../public/artists/keyakizaka46.jpg'/>
+            <img src={require('../../artists/keyakizaka46.jpg')}/>
             </a>
           </div>
           <h2> Keyakizaka46 </h2>
         </li>
       </ul>
+      </div>
   </div>
   <div className='lineup-day2'>
       <div className='lineup-border'>
@@ -59,11 +61,12 @@ export default props =>
         SAT
       </h1>
       </div>
+      <div className='artists-div'>
       <ul className='artists'>
         <li className='artist'>
           <div className='artist-pic'>
             <a>
-            <img src='../../../public/artists/BoA.jpg'/>
+            <img src={require('../../artists/boa.jpg')}/>
             </a>
           </div>
             <h2> BoA </h2>
@@ -71,7 +74,7 @@ export default props =>
         <li className='artist'>
           <div className='artist-pic'>
             <a>
-            <img src='../../../public/artists/silentsiren.jpg'/>
+            <img src={require('../../artists/silentsiren.jpg')}/>
             </a>
           </div>
           <h2> Silent Siren </h2>
@@ -79,12 +82,13 @@ export default props =>
         <li className='artist'>
           <div className='artist-pic'>
             <a>
-            <img src='../../../public/artists/uverworld.jpg'/>
+            <img src={require('../../artists/uverworld.jpg')}/>
             </a>
           </div>
           <h2> Uverworld </h2>
         </li>
       </ul>
+      </div>
   </div>
   <div className='lineup-day3'>
     <div className='lineup-border'>
@@ -92,11 +96,12 @@ export default props =>
         SUN
       </h1>
       </div>
+      <div className='artists-div'>
       <ul className='artists'>
         <li className='artist'>
           <div className='artist-pic'>
             <a>
-            <img src='../../../public/artists/utada.jpg'/>
+            <img src={require('../../artists/utada.jpg')}/>
             </a>
           </div>
             <h2> Utada Hikaru </h2>
@@ -104,7 +109,7 @@ export default props =>
         <li className='artist'>
           <div className='artist-pic'>
             <a>
-            <img src='../../../public/artists/backnumber.jpeg'/>
+            <img src={require('../../artists/backnumber.jpeg')}/>
             </a>
           </div>
           <h2> back number </h2>
@@ -112,11 +117,12 @@ export default props =>
         <li className='artist'>
           <div className='artist-pic'>
             <a>
-            <img src='../../../public/artists/flowerflower.jpg'/>
+            <img src={require('../../artists/flowerflower.jpg')}/>
             </a>
           </div>
           <h2> FLOWER FLOWER </h2>
         </li>
       </ul>
+      </div>
   </div>
 </div>
