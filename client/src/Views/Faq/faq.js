@@ -20,10 +20,21 @@ export default props =>
         </p>
       </div>
   </div>
-  <div className='mission-main'>
-    <p className='mission-p'>
-    At J-CON, our mission is to spread the wonderfully unique and inspiring culture of Japan, by bringing their pop culture icons and popular musicians to the United States to participate in one of the most interactive conventions ever.
+  <div className='faq-main'>
+    <p className='faq-p'>
+    Are tickets refundable?
+    </p>
+    <hr/>
+    <p className='answer-p'>
+    Yes up until a month before J-CON begins.
+    </p>
+    <p className='faq-p'>
+    How will seating be determined for events?
+    </p>
+    <hr/>
+    <p className='answer-p'>
+    On a first come first serve basis. Premium badge holders will be allowed priority seating.
     </p>
   </div>
+  </div>
   
-</div>

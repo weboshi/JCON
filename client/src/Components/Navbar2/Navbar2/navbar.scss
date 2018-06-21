@@ -48,13 +48,13 @@ a.navbar-brand:hover{
     font-size: 20px;
     display: inline-block;
     margin: auto !important;
-    padding-top: 70px;
+    padding-top: 90px;
     width: auto !important;
     margin-left: 50px !important;
 }
 div.navbar-header {
     display: inline-block;
-    margin-left: 80px !important;
+    margin-left: 20px !important;
 }
 
 div.container {
@@ -195,15 +195,16 @@ a:hover{
 }
 
 .dd-ul {
-    display: none;
     opacity: 0;
+    display: block;
+    visibility: hidden;
     transition: all .3s;
+    
 }
 
-#dd-li:hover .dd-ul {
-    display: block;
+.nav-dd:hover .dd-ul {
+    visibility: visible;
     opacity: 1;
-    
 }
 
 .nav-dd {
@@ -222,4 +223,18 @@ a:hover{
 .custom-btn:hover {
     background: red;
     transition: background .5s ease-out
+}
+
+.date {
+    float: right;
+    top: -200px;
+    margin-top: 70px;
+}
+.date-text {
+    float: left;
+    margin-right: 30px;
+}
+#registerButton {
+    float: right;
+   
 }

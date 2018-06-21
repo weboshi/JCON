@@ -20,6 +20,10 @@ export default props =>
         </p>
       </div>
   </div>
+  <div className='lineup-intro'>
+  <p> Our selection of artists is designed to give attendees a taste of Japan's rich and diverse music scene. Featuring cutesy idol groups, alternative pop rock, and chart topping soloists,  J-CON's music show case has something for everyone. 
+    </p>
+  </div>
   <div className='lineup-day1'>
     <div className='lineup-border'>
       <h1 className='lineup'>

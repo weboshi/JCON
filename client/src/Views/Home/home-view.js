@@ -16,7 +16,7 @@ export default ({ match }) =>
 <div className='container-home'>
 <Navbar2/>
   <div className='main-home'>
-  <p className='main-p'>Bringing fans and industry together for an annual celebration of Japanese pop culture. Join us for AX 2018 on July 5-8 (plus, Pre-Show Night July 4) in Downtown Los Angeles!
+  <p className='main-p'>Bringing fans and industry together for an annual celebration of Japanese pop culture. Join us for J-CON 2019 on July 20-22 (plus, Pre-Show Night July 4) in Downtown Los Angeles!
     </p>
   </div>
 </div>

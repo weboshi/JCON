@@ -20,6 +20,10 @@ export default props =>
         </p>
       </div>
   </div>
+  <div className='lineup-intro'>
+  <p> We invited some of Japan's most popular and talented figures to J-CON! Our guests are at the top of their fields and come from all walks of life. Actresses, athletes, comedians, our lineup of guests will be sure to wow J-CON attendees.  
+    </p>
+  </div>
   <div className='lineup-day1'>
     <div className='lineup-border'>
       <h1 className='lineup'>

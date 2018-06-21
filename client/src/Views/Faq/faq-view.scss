@@ -23,14 +23,30 @@ h1.lineup {
     margin-top: 10px;
 }
 
-.mission-main {
+.faq-main {
     color: white;
-    font-family: 'Roboto', 'sans-serif';
-    font-size: 30px;
+    font-family: 'Calibri';
+    font-size: 25px;
     text-align: center;
+    position: relative;
+    font-weight: bold;
 }
 
-.mission-p {
+.faq-p {
     padding-top: 80px;
 
+}
+
+hr {
+    size: 15px;
+    width: 50%;
+}
+
+p.faq-p:after {
+    content : "";
+    position: relative;
+    bottom: 0;
+    height  : 1px;
+    width   : 50%;  /* or 100px */
+    border-bottom: 3px solid white;
 }

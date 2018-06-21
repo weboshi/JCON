@@ -5,14 +5,14 @@ p.lineup {
     color: white;
     margin: auto;
     text-align: center;
-    line-height: 400px;
+    line-height: 200px !important;
 }
 
 
 .lineup-banner {
     background: rgba(255, 0, 0, 0.87);
     width: 100%;
-    height: 400px;
+    height: 200px !important;
 }
 
 h1.lineup {
@@ -83,11 +83,23 @@ li.artist {
 }
 
 .artists-div {
-    width: 80%;
+    width: 1300px;
     margin: auto;
 }
 
 .artists {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.lineup-intro {
+    padding-top: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Calibri', italic;
+    text-align: center;
+    font-weight: bold;
+    width: 70%;
+    margin: auto;
+
 }

@@ -77,17 +77,31 @@ li.artist {
 }
 
 .lineup-border {
-    border: 3px solid white;
+    border: 5px solid white;
     width: 100px;
     margin: auto;
 }
 
 .artists-div {
-    width: 80%;
+    width: 1300px;
     margin: auto;
 }
 
 .artists {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.lineup-intro {
+    padding-top: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Calibri', italic;
+    text-align: center;
+    font-weight: bold;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+    border-bottom: 7px solid white;
+
 }

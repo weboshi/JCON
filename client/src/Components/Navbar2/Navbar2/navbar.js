@@ -49,13 +49,19 @@ export default class navbar extends Component {
         </ul>
       </li>
     </ul>
+  
+    </div>
     
-    
-      <Button id='registerButton' style={{marginLeft:'450px'}} bsClass='custom-btn' bsSize="large">
+    <div className='date' style={{fontSize:'20px',color:'black'}}>
+    <div className='date-text'>
+    July 20-22, 2019 <br/>
+    LA Convention Center
+    </div>
+    <Button id='registerButton' style={{marginLeft:'0px'}} bsClass='custom-btn' bsSize="large">
         TICKETS
       </Button>
     </div>
-
+    
   
 </Navbar>
 
