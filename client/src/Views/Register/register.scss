@@ -8,15 +8,11 @@ p.lineup {
     line-height: 200px;
 }
 
-.lineup-div {
-    text-align: center !important
 
-}
-
-.lineup-banner {
-    background: rgba(255, 0, 0, 0.87);
+.register-banner {
+    background: rgb(226, 11, 11);
     width: 100%;
-    height: 400px;
+    height: 200px;
 }
 
 h1.lineup {
@@ -53,4 +49,15 @@ p.faq-p:after {
     height  : 1px;
     width   : 50%;  /* or 100px */
     border-bottom: 3px solid white;
+}
+
+.register-main {
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    width: 70%;
+    background-color: white;
+}
+.register-container {
+    background-color: white;
 }

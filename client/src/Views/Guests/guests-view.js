@@ -78,10 +78,10 @@ export default props =>
         <li className='artist'>
           <div className='artist-pic'>
             <a>
-            <img src={require('../../guests/hosada.jpeg')}/>
+            <img src={require('../../guests/shinzo.jpg')}/>
             </a>
           </div>
-          <h2> Mamoru Hosada </h2>
+          <h2> Shinzo Abe </h2>
         </li>
         <li className='artist'>
           <div className='artist-pic'>

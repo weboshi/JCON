@@ -16,7 +16,7 @@ export default class navbar extends Component {
 <Navbar default>
 <Navbar.Header style={{padding:'60px'}}>
 <Navbar.Brand pullLeft style={{height:'50%'}}>
-    <Link style={{textDecoration:'none !important'}} id='brand-link' href ='/' to="/" style={{fontSize:'70px', paddingBottom: '60px'}}>J-CON</Link>
+    <Link style={{textDecoration:'none !important'}} id='brand-link' href ='/' to="/" style={{fontSize:'70px'}}>J-CON</Link>
     </Navbar.Brand>
   </Navbar.Header>
   <div className='nav-links-div'>
@@ -42,22 +42,24 @@ export default class navbar extends Component {
     </ul>
     <ul class='nav-dd'>
       <li id='dd-li'>
-        <a class='dd-a' href="/" to="/" eventKey={3} componentClass={Link}>REGISTER</a>
+        <a class='dd-a' href="/register" to="/" eventKey={3} componentClass={Link}>REGISTER</a>
         <ul class='dd-ul'>
-          <li><a class='dd-links' href="/tickets" eventKey={3.1}>Get a Ticket </a></li>
+          <li><a class='dd-links' href="/register" eventKey={3.1}>Get a Ticket </a></li>
           <li><a class='dd-links' href="/plan" eventKey={3.2}>Plan Your Trip</a></li>
         </ul>
       </li>
     </ul>
+    </div>
   
+    <div className='date' style={{fontSize:'20px'}}>
+    <div className='social' style={{fontSize:'35px',}}>
+    <a class='envelope' href="twitter.com/jcon"><i style={{backgroundColor:"transparent", color:"red"}} class="fas fa-envelope"></i></a>
+    <a class='twitter' href="twitter.com/jcon"><i style={{backgroundColor:"transparent", color:"red"}} class="fab fa-twitter"></i></a>
+    <a class='facebook' href="facebook.com/jcon"><i style={{backgroundColor:"transparent", color:"red", fontSize:"33px"}} class="fab fa-facebook"></i></a>
+    <a class='instagram' href="instagram.com/jcon"><i style={{backgroundColor:"transparent", color:"red"}} class="fab fa-instagram"></i></a>
     </div>
-    
-    <div className='date' style={{fontSize:'20px',color:'black'}}>
-    <div className='date-text'>
-    July 20-22, 2019 <br/>
-    LA Convention Center
-    </div>
-    <Button id='registerButton' style={{marginLeft:'0px'}} bsClass='custom-btn' bsSize="large">
+  
+    <Button id='registerButton' style={{marginLeft:'0px',fontSize:'20px !important'}} bsClass='custom-btn' bsSize="large">
         TICKETS
       </Button>
     </div>

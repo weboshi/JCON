@@ -5,9 +5,16 @@ p.lineup {
     color: white;
     margin: auto;
     text-align: center;
-    line-height: 400px;
+    line-height: 210px;
 }
 
+.lineup-container {
+    padding-bottom: 150px;
+}
+
+ul.artists {
+    padding-left: 0px;
+}
 
 .lineup-banner {
     background: rgba(255, 0, 0, 0.87);
@@ -42,9 +49,7 @@ h2 {
     font-size: 20px;
 }
 
-li.artist {
-    padding: 30px;
-}
+
 
 .artist-pic {
     max-width: 300px;
@@ -80,16 +85,18 @@ li.artist {
     border: 5px solid white;
     width: 100px;
     margin: auto;
+    margin-top: 90px;
 }
 
 .artists-div {
-    width: 1300px;
+    width: 100%;
     margin: auto;
+    text-align: center;
 }
 
-.artists {
-    padding-left: 50px;
-    padding-right: 50px;
+ul.artists {
+    height: 165px;
+
 }
 
 .lineup-intro {
@@ -104,4 +111,18 @@ li.artist {
     padding-bottom: 40px;
     border-bottom: 7px solid white;
 
+}
+
+ul.artists li {
+    display: inline-block;
+}
+
+ul.artists li {
+    width: auto;
+    margin: 30px;
+
+}
+
+ul.artists {
+    text-align: center;
 }

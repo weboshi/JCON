@@ -8,15 +8,11 @@ p.lineup {
     line-height: 200px;
 }
 
-.lineup-div {
-    text-align: center !important
-
-}
 
 .lineup-banner {
-    background: rgba(255, 0, 0, 0.87);
+    background:rgb(226, 11, 11) !important;
     width: 100%;
-    height: 400px;
+    height: 200px !important;
 }
 
 h1.lineup {
@@ -53,4 +49,52 @@ p.faq-p:after {
     height  : 1px;
     width   : 50%;  /* or 100px */
     border-bottom: 3px solid white;
+}
+
+.sponsors-main {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.sponsors-row1 {
+    max-width: 80%;
+    margin: auto;
+}
+.sponsor-pic {
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 30px;
+}
+
+img.sponsor {
+    height: auto;
+    width: 300px;
+}
+.sponsor1 {
+
+}
+
+.sponsor-pic {
+    max-width: 200px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+img.sponsor {
+    height: auto;
+    width: 100px;
+}
+
+.sponsors {
+    display: inline-block
+}
+
+.sponsors li {
+    display: inline-block
+}
+
+.sponsors-div {
+    text-align: center;
 }
